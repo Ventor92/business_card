@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dzień 5 Founts</title>
+    <!-- pobieranie fontó Poppins i Roboto w wersjach regular i bold -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        a {
+            font-size: 2rem;
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 10px;
+        }
+
+        a.secound {
+            text-decoration: none;
+        }
+
+        a.secound:hover {
+            text-decoration: underline;
+            color: red;
+            font-weight: 600;
+        }
+
+        p {
+            background-color: yellowgreen;
+            font-family: 'Poppins', Helvetica, sans-serif;
+        }
+
+        p.first {
+            text-indent: 1rem;
+            text-align: left;
+            color: blue;
+            line-height: 120%;
+        }
+
+        p.first+p {
+            text-indent: 1rem;
+            text-align: right;
+            color: red;
+            line-height: 150%;
+            text-transform: uppercase;
+
+        }
+
+        p.first+p+p {
+            text-indent: 1rem;
+            text-align: center;
+            color: green;
+            line-height: 200%;
+
+        }
+
+        p.first+p+p+p {
+            text-indent: 1rem;
+            text-align: justify;
+            color: yellow;
+            /* 300% z wysokości fonta */
+            line-height: 300%;
+        }
+
+        section {
+            background-color: grey;
+            width: 20vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        span.upAlign {
+            font: 20px tahoma;
+            vertical-align: text-bottom;
+        }
+
+        .boxModel {
+            padding: 40px;
+            border: 10px solid orange;
+            margin: 30px;
+            font-size: 50px;
+        }
+
+        .boxModel p {
+            display: inline;
+            text-transform: uppercase;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section>
+
+        <a href="#">hiper</a>
+        <a class="secound" href="#">hiper2</a>
+        <p class="first">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam velit ipsum ut minus?
+            Cupiditate
+            cum inventore
+            odit perferendis incidunt aliquid numquam quis! Incidunt iure cumque ad, tenetur ut sit soluta?</p>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore neque, unde illum quaerat esse voluptates
+            ab.
+            Voluptates, reiciendis eum quis ipsam repellendus dolore blanditiis labore nobis, exercitationem aliquid est
+            porro.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem similique voluptates quia modi assumenda
+            optio,
+            reiciendis praesentium et iure id repellat eveniet iste commodi dolorem animi voluptas, laudantium quos
+            odit.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, laudantium ut tempora voluptatum
+            debitis, iure, <span class="upAlign">test spana z alignowaniem wertykalnym</span> excepturi adipisci amet
+            facere non at quidem autem illo blanditiis sequi ducimus nostrum
+            tenetur.
+        </p>
+    </section>
+    <div>
+        <section class="boxModel">
+            <p>
+                tekst tekst tekst
+                tekst tekst tekst
+                tekst tekst tekst
+            </p>
+        </section>
+        <img src="box_model.png" alt="box_model">
+    </div>
+</body>
+
+</html>
