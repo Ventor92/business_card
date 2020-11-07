@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav div.logo {
+    width: 20vw;
+    padding-right: 10vw;
+    height: 40px;
+    background-color: brown;
+    float: left;
+}
+
+/* nav.menu {
+    background-color: #666;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+} */
+
+nav.menu ul {
+    width: 70vw;
+    height: 40px;
+    background-color: darkcyan;
+    float: left;
+    list-style: none;
+}
+
+nav.menu ul li {
+    float: left;
+    width: 25%;
+}
+
+nav.menu ul li a {
+    /* box-sizing: border-box; */
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    transition: .2s;
+}
+
+nav.menu ul li a:hover {
+    font-size: 26px;
+}
