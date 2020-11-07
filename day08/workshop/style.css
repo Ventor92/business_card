@@ -10,23 +10,11 @@ div.wrapper {
 }
 
 nav {
-    background-color: #ddd;
-    padding: 10px 0;
-    /* margin: 10px 0; Nie weźmie koloru tła*/
-    text-align: center;
 
 }
 
 nav a {
-    display: inline-block;
-    padding: 10px 25px;
-    margin: 10px 15px;
-    font-size: 20px;
-    border: 2px solid;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    color: brown;
+
 }
 
 nav a:hover {
