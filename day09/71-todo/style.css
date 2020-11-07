@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 30vw;
+    background-color: rgb(220, 220, 220);
+}
+
+nav.menu {
+    background-color: #666;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+}
+
+nav.menu ul {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 30px 0 30px 20px;
+    list-style: none;
+    font-size: 0;
+}
+
+nav.menu ul li {
+    display: inline-block;
+}
+
+nav.menu ul li a {
+    box-sizing: border-box;
+    display: block;
+    margin-right: 30px;
+    color: white;
+    /* background-color: white; */
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-decoration: none;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+nav.menu ul li a:hover {
+    color: chartreuse;
+    border-color: chartreuse;
+}

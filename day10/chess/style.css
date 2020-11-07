@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.board {
+    border: 3px solid black;
+    width: 400px;
+    margin: 50px auto;
+}
+
+div.cell {
+    background-color: violet;
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+div.cell:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+div.cell:nth-of-type(even) {
+    background-color: #000;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

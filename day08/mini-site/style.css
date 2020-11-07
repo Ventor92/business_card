@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/* Nawigacja */
+nav {
+    margin: 30px auto;
+    text-align: right;
+    max-width: 1280px;
+    /* background-color: #ddd; */
+}
+
+nav a {
+    /* box-sizing: border-box; */
+    /* height: 50px; */
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+nav a.reservation {
+    padding: 10px 30px;
+    border: 2px solid #555;
+    margin-right: 50px;
+    margin-left: 80px;
+
+    font-size: 2rem;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #F00;
+    color: black;
+}
+
+nav a.reservation:hover {
+    background-color: royalblue;
+    color: #eee;
+    border-color: royalblue;
+}
+
+
+/* Header */
+header {
+    height: 40vh;
+    background-image: url('auto1.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+    line-height: 40vh;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+footer {
+    background-color: black;
+    font-size: 0.5rem;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+/* Main */
+main {
+    max-width: 1280px;
+    margin: 5vh auto;
+    font-size: 0;
+}
+
+main p.description {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 0 30px 50px 30px;
+    line-height: 180%;
+}
+
+main section div.feature {
+    font-size: 2rem;
+    display: inline-block;
+    width: 33.33%;
+    /* background-color: aqua; */
+}
+
+main h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #222;
+}
+
+main div.image {
+    height: 200px;
+    background-color: royalblue;
+    margin: 20px 20px;
+}
