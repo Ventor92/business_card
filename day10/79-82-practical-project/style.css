@@ -61,6 +61,32 @@ header div:nth-child(4):hover {
 
 nav {
     background-color: #000000;
-    height: 50px;
+    padding: 10px 0 10px 50px;
+}
 
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+}
+
+nav ul li a {
+    display: block;
+    border: 2px solid white;
+    margin-left: 20px;
+    padding: 10px 30px;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: grey;
+    color: yellow;
+    border-color: yellow;
 }
