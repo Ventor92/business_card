@@ -12,22 +12,54 @@ div.wrapper {
 }
 
 nav {
-
+    /* work-around na niechciany marginesik(przerwe) pomiędzy liniowymi elementami */
+    font-size: 0;
 }
 
 nav a {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    /* 25%(width) + 10px * 2 (padding) */
+    background-color: #ddd;
+    font-size: 18px;
 
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+
+    /* sposoby na centrowanie wertykalne */
+    /* padding: 10px 0; */
+    /* line-height: 50px; */
+    line-height: 40px;
+
+    /* Aby skorzystać z border box ale w taki sposob any nie powiększał nam rozmiaru elementu należy określić jego wyspkość  */
+    height: 40px;
+
+}
+
+nav a.btn1 {
+    background-color: burlywood;
+}
+
+nav a.btn2 {
+    background-color: deepskyblue;
+}
+
+nav a.btn3 {
+    background-color: darkcyan;
 }
 
 nav a.btn4 {
-
+    background-color: royalblue;
 }
 
 nav a:hover {
-
-}
-
-nav a.btn4:hover {
+    border-bottom: 2px solid brown;
+    color: black;
+    background-color: white;
 }
 
 header {
