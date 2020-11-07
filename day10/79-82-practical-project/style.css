@@ -91,6 +91,20 @@ nav ul li a:hover {
     border-color: yellow;
 }
 
+main {
+    height: 300px;
+    background-color: brown;
+    float: left;
+    width: 65%;
+}
+
+aside {
+    height: 300px;
+    background-color: darkgoldenrod;
+    float: left;
+    width: 25%;
+}
+
 footer {
     background-color: grey;
     color: white;
