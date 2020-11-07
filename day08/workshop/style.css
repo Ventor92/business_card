@@ -12,11 +12,28 @@ div.wrapper {
 }
 
 nav {
-
+    margin: 20px;
+    text-align: right;
 }
 
 nav a {
+    display: inline-block;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: brown;
+    padding: 10px 20px;
+    margin: 0 5px;
+    /* background-color: aqua; */
+}
 
+nav a.btn4 {
+    border: 2px solid brown;
+    margin-left: 100px;
+    margin-right: 50px;
+    transition: 0.4s;
+    letter-spacing: 2px;
 }
 
 nav a:hover {
