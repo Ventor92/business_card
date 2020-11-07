@@ -66,6 +66,8 @@ nav {
 
 nav ul {
     list-style: none;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 nav ul li {
@@ -92,7 +94,9 @@ nav ul li a:hover {
 }
 
 div.blog {
-    margin-top: 40px;
+    max-width: 1024px;
+    margin: 40px auto 0;
+    padding-left: 20px;
 }
 
 main {
@@ -103,7 +107,7 @@ main {
 
 aside {
     height: 200px;
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
     float: left;
     width: 25%;
 }
@@ -116,6 +120,29 @@ article img {
 
 article p {
     margin-top: 20px;
+}
+
+section.contact {
+    background-color: #ddd;
+    padding: 15px;
+}
+
+section.contact p {
+    margin-bottom: 24px;
+}
+
+section.contact ul {
+    margin-top: 24px;
+    list-style: none;
+}
+
+section.contact li {
+    margin: 10px 0;
+}
+
+section.contact li i {
+    margin-right: 20px;
+    color: #333;
 }
 
 footer {
