@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.wrapper {
+    min-height: 1280px;
+    /* wycentrowanie strony */
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #ddd;
+    padding: 10px 0;
+    /* margin: 10px 0; Nie weźmie koloru tła*/
+    text-align: center;
+
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 15px;
+    font-size: 20px;
+    border: 2px solid;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: brown;
+}
+
+nav a:hover {
+    color: white;
+    background-color: brown;
+    transition: 0.2s;
+}
+
+header {
+    height: 300px;
+    background-color: cadetblue;
+}
+
+main {
+    min-height: 50vh;
+    background-color: burlywood;
+}
+
+footer {
+    min-height: 100px;
+    background-color: darkcyan;
+}
