@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 40vh;
+    background-image: url(pcb-board.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav.first {
+    background-color: #333;
+    padding-left: 20px;
+    font-size: 0;
+    border-bottom: 4px solid royalblue;
+}
+
+nav.first a {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+nav.secound {
+    background-color: #333;
+    padding-left: 20px;
+}
+
+nav.secound ul {
+    font-size: 0;
+    border-bottom: 4px solid royalblue;
+}
+
+nav.secound ul li {
+    display: inline-block;
+}
+
+nav.secound ul li a {
+    display: block;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+nav.secound ul li a:hover {
+    color: orange;
+}
+
+nav.first a:hover {
+    color: orange;
+}
