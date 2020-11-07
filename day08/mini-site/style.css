@@ -68,3 +68,15 @@ header h1 {
     line-height: 40vh;
     background-color: rgba(0, 0, 0, 50%);
 }
+
+footer {
+    background-color: black;
+    font-size: 0.5rem;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
