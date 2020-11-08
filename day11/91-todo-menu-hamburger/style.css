@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.menu-ico {
+    position: fixed;
+    right: 50px;
+    top: 30px;
+
+    color: grey;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+div.menu-ico:hover {
+    color: black;
+}
+
+body {
+    /* background-color: cadetblue; */
+    height: 200vh;
+    position: relative;
+}
