@@ -8,14 +8,13 @@ div.menu-ico {
     position: fixed;
     right: 50px;
     top: 30px;
-}
 
-div.menu-ico a {
     color: grey;
     font-size: 40px;
+    cursor: pointer;
 }
 
-div.menu-ico a:hover {
+div.menu-ico:hover {
     color: black;
 }
 
