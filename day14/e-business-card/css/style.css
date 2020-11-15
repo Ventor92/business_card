@@ -463,6 +463,20 @@ section {
     .portfolio .project:nth-of-type(even) .web {
         float: right;
     }
+
+    .portfolio .project:nth-of-type(even) .about {
+        padding-right: 0;
+    }
+
+    .portfolio .project:nth-of-type(even) .about p {
+        padding-right: 20px;
+    }
+
+    .portfolio .project:nth-of-type(even) .about h2 {
+        border-bottom: 2px solid white;
+        text-indent: 0;
+        margin-left: 20px;
+    }
 }
 
 @media (orientation: landscape) and (min-width: 1440px) {
