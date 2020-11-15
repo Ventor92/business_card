@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    position: relative;
+    height: 90vh;
+    background-color: #29a6dc;
+    font-weight: bold;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+header>* {
+    position: absolute;
+}
+
+header img {
+    height: 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+header div.welcome {
+    top: 7%;
+    left: 5%;
+    right: 5%;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+header div p {
+    text-align: center;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+header h1 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+header button {
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    left: 5%;
+    right: 5%;
+    background-color: transparent;
+    line-height: 32px;
+    padding: 0 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+@media (orientation: landscape) {
+    header img {
+        height: 100%;
+        bottom: 0;
+        right: 0;
+
+    }
+
+    header div.welcome {
+        top: 15%;
+        left: 7%;
+        right: 50%;
+    }
+
+    header button {
+        margin-top: 40px;
+    }
+
+    header img {
+        left: auto;
+        transform: none;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 24px;
+    }
+
+    header button {
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+
+    header img {
+        right: 5%;
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+    header h1 {
+        margin-top: 40px;
+        font-size: 34px;
+    }
+
+    header div.welcome {
+        left: 3%
+    }
+
+    header h2 {
+        font-size: 34px;
+    }
+
+    header button {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    header img {
+        right: 8%;
+        height: 110%;
+    }
+
+    header p {
+        font-size: 56px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1280px) {
+
+    header img {
+        left: 40%;
+        height: 110%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 24px;
+    }
+
+    header button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    header img {
+        height: 55%;
+        left: 50%;
+        transform: translate(-48%, 0);
+    }
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+    header div p {
+        font-size: 50px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 40px;
+    }
+
+    header button {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    header img {
+        height: 65%;
+        left: 50%;
+        transform: translate(-48%, 0);
+    }
+
+}
+
+@media (orientation: portrait) and (min-width: 1024px) {
+    header div p {
+        font-size: 60px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header h2 {
+        font-size: 50px;
+    }
+
+    header button {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    header img {
+        height: 70%;
+        left: 50%;
+        transform: translate(-48%, 0);
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    header button {
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    header button:hover {
+        background-color: #fff;
+        color: #111;
+    }
+}
+
+section {
+    min-height: 30vh;
+}
+
+/* sekacja features */
+
+.features {
+    margin-top: 50px;
+    padding: 5%;
+    text-align: center;
+    max-width: 1600px;
+}
+
+.features h1 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.features h2 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.feature p {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.features img {
+    width: 100%;
+    margin: 20px 0;
+    max-width: 375px;
+}
+
+@media (min-width: 360px) {
+    .features h1 {
+        font-size: 28px;
+    }
+
+    .features h2 {
+        font-size: 26px;
+    }
+
+    .features p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .features h1 {
+        font-size: 32px;
+    }
+
+    .features h2 {
+        font-size: 32px;
+    }
+
+    .features p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .features {
+        padding: 5% 2%;
+    }
+
+    .feature {
+        float: left;
+        width: 33%;
+        padding: 30px;
+
+    }
+
+    .features h1 {
+        font-size: 36px;
+    }
+
+    .features h2 {
+        font-size: 28px;
+    }
+
+    .features p {
+        font-size: 16px;
+        line-height: 130%;
+    }
+}
+
+@media (min-width: 1600px) {
+
+    .features {
+        margin: auto auto;
+    }
+
+    .feature {
+        padding: 20px 40px;
+    }
+
+    .features h1 {
+        font-size: 60px;
+    }
+
+    .features h2 {
+        font-size: 36px;
+    }
+
+    .features p {
+        font-size: 21px;
+        line-height: 130%;
+    }
+}
+
+/* sekcja portfolio */
+
+.portfolio {
+    background-color: black;
+    padding: 10px 0 30px;
+}
+
+.portfolio h1 {
+    color: white;
+}
+
+
+.portfolio h1 {
+    font-size: 21px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+.portfolio .web img {
+    width: 100%;
+}
+
+.portfolio .about {
+    color: white;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 10px 20px 20px 0;
+    text-align: left;
+
+}
+
+.portfolio .about h2 {
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    text-indent: 20px;
+}
+
+.portfolio .about p {
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.portfolio .project {
+    max-width: 1440px;
+    margin: 0 auto 20px;
+}
+
+.portfolio .project:nth-of-type(odd) {
+    background-color: orange;
+}
+
+.portfolio .project:nth-of-type(even) {
+    background-color: grey;
+}
+
+@media (min-width: 768px) {
+
+    .portfolio h1 {
+        font-size: 40px;
+    }
+
+    .portfolio .about h2 {
+        font-size: 28px;
+        text-indent: 40px;
+    }
+
+    .portfolio .about p {
+        font-size: 18px;
+        padding-left: 40px;
+    }
+
+    .portfolio .project {
+        margin-bottom: 40px;
+    }
+}
+
+@media (orientation: landscape) {
+
+    .web,
+    .about {
+        width: 50%;
+        float: left;
+    }
+
+    .web img {
+        display: block;
+    }
+
+    .portfolio .project:nth-of-type(even) .web {
+        float: right;
+    }
+
+    .portfolio .project:nth-of-type(even) .about {
+        padding-right: 0;
+    }
+
+    .portfolio .project:nth-of-type(even) .about p {
+        padding-right: 20px;
+    }
+
+    .portfolio .project:nth-of-type(even) .about h2 {
+        border-bottom: 2px solid white;
+        text-indent: 0;
+        margin-left: 20px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1440px) {
+
+    .portfolio h1 {
+        font-size: 60px;
+        padding: 30px 0;
+    }
+
+    .portfolio .about h2 {
+        font-size: 28px;
+        text-indent: 40px;
+        padding-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .portfolio .about p {
+        font-size: 18px;
+        padding-left: 40px;
+        line-height: 180%;
+    }
+
+    .portfolio .project {
+        margin-bottom: 40px;
+    }
+}
