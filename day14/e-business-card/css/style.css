@@ -181,7 +181,7 @@ header button {
     header div p {
         font-size: 50px;
     }
-    
+
     header h1 {
         font-size: 40px;
     }
@@ -207,7 +207,7 @@ header button {
     header div p {
         font-size: 60px;
     }
-    
+
     header h1 {
         font-size: 50px;
     }
@@ -231,4 +231,17 @@ header button {
 
 section {
     min-height: 100vh;
+}
+
+@media (min-width: 1024px) {
+
+    header button {
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    header button:hover {
+        background-color: #fff;
+        color: #111;
+    }
 }
